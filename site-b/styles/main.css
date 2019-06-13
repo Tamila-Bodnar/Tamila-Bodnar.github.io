@@ -1,0 +1,170 @@
+/*main.css*/
+@font-face{
+  font-family: '﻿OpenSans';
+  src: url('../fonts/2211.eot');
+  src: url('../fonts/2211.eot?iefix') format('eot'),
+  url('../fonts/2211.woff') format('woff'),
+  url('../fonts/2211.ttf') format('truetype'),
+  url('../fonts/2211.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  overflow-x:hidden;
+}
+#high {
+  background: #fefefe;
+}
+#logo_img {
+  margin-right: 15px;
+}
+#phone p {
+  font-family: ﻿"OpenSans", ﻿"AdobeInvisFont", "﻿MyriadPro-Regular";
+  font-size: 16pt;
+  color: rgba(57, 57, 57, 255);
+}
+#menu {
+  background: #eef1ee;
+}
+#menu button {
+  color: rgba(57, 57, 57, 255);
+}
+#content .carousel-indicators > li {
+  border-radius: 50%;
+}
+
+.carousel-indicators {
+  position: relative;
+}
+
+.carousel-text {
+  width: 55%;
+  height: 20%;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  font-size: 14pt;
+  background: rgba(214,215,221,.5);
+  word-wrap: break-word;
+  overflow: hidden;
+
+}
+
+#content .trickcenter {
+  z-index: 20;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 3px 3px rgba(0,0,0,.6);
+}
+#privilege {
+  background: #007640;
+  font-family: ﻿"RobotoSlab-Regular", "﻿AdobeInvisFont", ﻿"MyriadPro-Regular";
+  font-size: 24pt;
+  color: rgba(255, 255, 255, 255);
+}
+#privilege p {
+  margin-bottom: 0;
+}
+#privilege_about {
+  background: #EFF2EF;
+}
+.privilege_text {
+  font-family: "﻿OpenSans", ﻿"AdobeInvisFont", "﻿MyriadPro-Regular";
+  font-size: 14pt;
+  color: rgba(51, 51, 51, 255);
+  text-align: center;
+}
+#application_name {
+  font-family: "﻿RobotoSlab-Regular", "﻿AdobeInvisFont", "﻿MyriadPro-Regular";
+  font-size: 24pt;
+  color: rgba(51, 51, 51, 255);
+  text-align: center;
+}
+
+.app_info {
+  font-family: ﻿"OpenSans", "﻿AdobeInvisFont", "﻿MyriadPro-Regular";
+  font-size: 18pt;
+}
+.app_info img:hover{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: transform 1s;
+  -moz-transition: transform 1s;
+  -o-transition: transform 1s;
+  -ms-transition: transform 1s;
+  transition: transform 1s;
+}
+
+.img{
+  z-index: 10;
+}
+#villige {
+  font-family: ﻿"OpenSans", "﻿AdobeInvisFont", "﻿MyriadPro-Regular";
+  font-size: 24pt;
+  color: rgba(0, 0, 0, 255);
+  text-align: center;
+}
+
+.sertific_background {
+  background: #ECEFEC;
+}
+.sertific_background p {
+  font-family: ﻿"RobotoSlab-Regular", "﻿AdobeInvisFont", "﻿MyriadPro-Regular";
+  font-size: 20pt;
+  color: rgba(0, 0, 0, 255);
+}
+.sertificates img{
+  margin: 0 auto;
+  text-shadow: 2px 3px 3px rgba(0,0,0,.6);
+}
+.sertif_img {
+  margin-bottom: 4%;
+}
+.goods_background {
+  background: #007640; 
+}
+.goods_background p {
+  font-family: "﻿RobotoSlab-Regular", "﻿AdobeInvisFont", "﻿MyriadPro-Regular";
+  font-size: 24pt;
+  color: rgba(255, 255, 255, 255);
+}
+.goods {
+  margin: 0 auto;
+}
+.goods button {
+  color: black;
+}
+.some_text {
+  background: #ECEFEC;
+  text-indent: 20px;
+}
+
+#footer {
+  background: #007640;
+  color: white;
+  padding-bottom: 0,8%;
+}
+#logo_footer {
+  text-shadow: 2px 4px 3px rgba(0,0,0,.6);
+}
+#nav_footer {
+  margin-top: 3%;
+}
+#nav_footer a{
+  color: white;
+  padding: 0;
+}
+#div_for_rating i{
+  color: #F8D636;
+  margin: 0;
+  padding: 0;
+}
+
