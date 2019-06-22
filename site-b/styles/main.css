@@ -9,26 +9,37 @@
   font-weight: normal;
   font-style: normal;
 }
+
 body {
   overflow-x:hidden;
 }
+
 #high {
   background: #fefefe;
 }
+
 #logo_img {
   margin-right: 15px;
 }
+
 #phone p {
   font-family: ﻿"OpenSans", ﻿"AdobeInvisFont", "﻿MyriadPro-Regular";
   font-size: 16pt;
   color: rgba(57, 57, 57, 255);
 }
+
 #menu {
   background: #eef1ee;
 }
+
 #menu button {
   color: rgba(57, 57, 57, 255);
 }
+
+.carousel-inner img {
+  margin: auto;
+}
+
 #content .carousel-indicators > li {
   border-radius: 50%;
 }
