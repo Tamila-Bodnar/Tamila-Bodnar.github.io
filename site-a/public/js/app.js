@@ -246,11 +246,11 @@ $(document).ready(function(){
 	
 	$('.with_borders').click((event) => {
 		type = 1;
-		// new_game();
+		new_game();
 	});	
 	$('.no_borders').click((event) => {
 		type = 2;
-		// new_game();
+		new_game();
 	});
 	
 	$('.size1').click((event) => {
