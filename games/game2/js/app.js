@@ -74,6 +74,7 @@ function main() {
       prizeHTML.style.display = 'inline';
       totalPrizeHTML.style.display = 'inline';
       skipQuestionHTML.style.display = 'block';
+      skipQuestionHTML.disabled = false;
       for (const card of cardsHTML.children) {
         card.innerText = '';
       }
