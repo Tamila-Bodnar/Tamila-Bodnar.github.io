@@ -1,0 +1,91 @@
+.preloader,
+.question,
+.skip-question,
+.prize,
+.totalprize,
+.current-results {
+  display: none;
+}
+
+.content {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+  margin: 2rem auto;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.buttons-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.start-new-game,
+.skip-question {
+  padding: 1rem 3rem;
+  font-size: 1.4rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.game-wrap {
+  padding: 2rem;
+  margin-top: 4rem;
+  background-image: url(https://ak.picdn.net/shutterstock/videos/3189244/thumb/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 2px 2px 20px 2px rgb(100, 100, 100);
+  border-radius: 10px;
+}
+
+.question {
+  font-size: 2.2rem;
+  text-align: center;
+  margin: 3rem auto;
+  width: 80%;
+}
+
+.current-results {
+  text-align: left;
+  margin-top: 4rem;
+  font-size: 1.4rem;
+}
+
+.current-results>p>span {
+  font-size: 2.2rem;
+  color: green;
+}
+
+.cards {
+  display: none;
+  justify-content: space-between;
+}
+
+.card {
+  width: 200px;
+  padding: 3rem 1rem;
+  border-radius: 10px;
+  border: 2px solid grey;
+  font-size: 1.4rem;
+}
+
+.card:hover {
+  background-color: rgb(176, 233, 233);
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .cards {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    flex: 1 1 200px;
+    margin: 20px 40px;
+  }
+}

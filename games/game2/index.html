@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HW_8</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="js/questions.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    localStorage.setItem('array', JSON.stringify(questions));
+  </script>
+</head>
+
+<body>
+  <div id="preloader" class="preloader">
+  </div>
+  <header>
+    <h1 id="header" class="header">Quiz game</h1>
+  </header>
+  <main>
+    <section class="content">
+      <div id="game" class="game-wrap">
+        <div class="buttons-wrap">
+          <button id="startNewGame" class="start-new-game">Start new game</button>
+          <button id="skipQuestion" class="skip-question">Skip question</button>
+        </div>
+        <h2 id="question" class="question">Generating questions...</h2>
+        <div id="cards" class="cards">
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+        </div>
+        <div class="current-results">
+          <p>Total prize: <span id="totalPrize">0</span></p>
+          <p>Prize on current round: <span id="prize">100</span></p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
