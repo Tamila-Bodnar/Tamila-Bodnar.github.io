@@ -1,0 +1,1 @@
+$(document).on("ready",function(){$(window).load(function(){$(".preloader").fadeOut(1E3)});$("#home").parallax("50%",0.3);new LazyLoad({elements_selector:".lazy",load_delay:300});$(window).scroll(function(){$(this).scrollTop()>200?$(".go-top").fadeIn(200):$(".go-top").fadeOut(200)});$(".go-top").click(function(a){a.preventDefault();$("html, body").animate({scrollTop:0},300)})});

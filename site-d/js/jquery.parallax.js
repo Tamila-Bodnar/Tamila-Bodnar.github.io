@@ -1,0 +1,2 @@
+(function(c){var b=c(window),j=b.height();b.resize(function(){j=b.height()});c.fn.parallax=function(e,f,g){function h(){d.each(function(){k=d.offset().top});l=g?function(a){return a.outerHeight(true)}:function(a){return a.height()};if(arguments.length<1||e===null)e="50%";if(arguments.length<2||f===null)f=0.5;if(arguments.length<3||g===null)g=true;var i=b.scrollTop();d.each(function(){var a=c(this),m=a.offset().top;a=l(a);m+a<i||m>i+j||d.css("backgroundPosition",e+" "+Math.round((k-i)*f)+"px")})}var d=
+c(this),l,k;b.bind("scroll",h).resize(h);h()}})(jQuery);
