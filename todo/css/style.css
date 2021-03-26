@@ -1,0 +1,39 @@
+.mbox {
+  max-width: 900px;
+  margin:0 auto;
+}
+
+.list {
+  padding-left: 0;
+  width: 500px;
+  list-style: none;
+}
+
+.item {
+  margin-bottom: 15px;
+  padding-right: 80px;
+  min-height: 21px;
+  position: relative;
+}
+
+.item-text {
+  display: block;
+  cursor: pointer;
+  line-height: 21px;
+}
+
+.item-text.done {
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.item-remove {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 21px;
+}
+
+.search-text{
+  background-color: yellow;
+}

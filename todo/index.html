@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="mbox">
+      <h2>Add Todo</h2>
+      <form>
+        <label for="add-input">New task:</label>
+        <input type="text" id="add-input" />
+        <button id="add-submit">Add</button>
+      </form>
+
+      <hr>
+
+      <h2>Search task</h2>
+      <form>
+        <label for="add-input">Enter the text:</label>
+        <input type="text" id="search-input" />
+        <button id="search-submit">Search</button>
+      </form>
+
+      <hr>
+
+      <h2>Todo List</h2>
+      <button class="clear-selection">Clear selection</button>
+      <ul class="list">
+        <li class="item">
+          <span class="item-text">Buy milk</span>
+          <button class="item-remove">Remove</button>
+        </li>
+        <li class="item">
+          <span class="item-text done">Play with dog</span>
+          <button class="item-remove">Remove</button>
+        </li>
+      </ul>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
