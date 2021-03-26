@@ -1,0 +1,73 @@
+
+#tree {
+  width: 50%;
+  margin: 5% auto;
+  border-radius: 8px;
+  border: 2px solid grey;
+  box-shadow: 4px 2px 20px 2px grey;
+  padding: 20px 10px 20px 30px;
+}
+
+p {
+  margin: 0;
+  padding: 6px 0 6px 4px;
+  border-radius: 4px;
+}
+
+.folder > div {
+  margin-left: 30px;
+}
+.folder p:hover,
+.element:hover {
+  background-color:#cfdeee ;
+}
+.folder {
+  cursor: pointer;
+  padding: 0;
+}
+.folder .material-icons {
+  color: #EDBC0B;
+ }
+ .element .material-icons {
+  color: #B0B0B0;
+ }
+#tree .material-icons {
+ vertical-align: middle;
+ margin-right: 6px;
+}
+.messageThatEmpty {
+  font-style: italic;
+  margin-left: 20px;
+}
+#taskMenu {
+  position: absolute;
+  z-index: 10;
+  padding: 5px;
+  width: 120px;
+  background-color: #fff;
+  border: solid 1px #dfdfdf;
+  box-shadow: 1px 1px 2px #cfcfcf;
+  text-decoration: none;;
+}
+
+.task{
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.task:hover {
+  background-color: #dbe4ec;
+}
+#checked {
+  background: #5291d3;
+  caret-color: red;
+}
+
+input {
+width: 60px;
+background-color: transparent;
+border: none;
+}
+
